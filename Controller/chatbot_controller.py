@@ -19,7 +19,7 @@ class ChatbotController:
         self.message = [system]
         self.client = OpenAI(
             base_url="https://generativelanguage.googleapis.com/v1beta/",
-            api_key="AIzaSyDsoyUFDKkeQRA9hh38N4dc1eRSV6AoaXk"
+            api_key="Google_key"
         )
 
     def get_data(self):
